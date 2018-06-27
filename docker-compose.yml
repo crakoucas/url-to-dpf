@@ -1,0 +1,8 @@
+version: '2'
+services:
+  pdf:
+    image: crakoucas/pdf
+    ports:
+    - "9000:9000"
+    environment:
+        - TOKEN=Whpf4sFSgptAqgSqPVlZ98ipG2ZckGenCQ1
